@@ -8,6 +8,7 @@
   function PerformGreeting(ev) {
     myName.innerHTML = userName.value;
 	userHeader.innerHTML = userName.value;
+	userHeader.classList.add("header-background");
     ev.preventDefault();
   }
 
